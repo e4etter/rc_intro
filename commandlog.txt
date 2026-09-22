@@ -9,11 +9,11 @@ salloc -N 2 -n 6 -A open -t 2:00:00
 cd ~/scratch
 
 # download workshop repo
-wget www.emeryetter.com/share/rc_intro.zip
+wget emeryetter.com/share/rc_intro.zip
 unzip rc_intro.zip
 
 # OR clone the repo
-git clone https://github.com/ecetter/rc_intro.git
+git clone https://github.com/e4etter/rc_intro.git
 
 # navigate to workshop directory
 cd rc_intro
