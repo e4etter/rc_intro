@@ -2,7 +2,7 @@
 
 #SBATCH --job-name=pi_serial        #### give the job a name
 #SBATCH --account=open              #### specify the account
-#SBATCH --partition=open            #### specify the partition
+#SBATCH --partition=basic           #### specify the partition
 #SBATCH --nodes=1                   #### request a node
 #SBATCH --ntasks=1                  #### request a task / cpu
 #SBATCH --mem=1G                    #### request the memory required per node
